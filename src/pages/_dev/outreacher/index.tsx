@@ -40,7 +40,7 @@ const OutreacherContent: FC = () => {
   const isLoaded = useGoogleMapsLoader();
   const townResultsRef = useRef<HTMLElement>(null);
   const businessResultsRef = useRef<HTMLElement>(null);
-  const businessSearchPanelRef = useRef<HTMLElement>(null);
+  const businessSearchPanelRef = useRef<HTMLDivElement>(null);
 
   if (!isLoaded) return null;
 

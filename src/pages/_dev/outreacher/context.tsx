@@ -39,8 +39,9 @@ type TBusinessSearchResults = {
 
 type TOutreacherContextValue = {
   // URL Form state
-  url: string;
-  setUrl: (url: string) => void;
+  urls: string[];
+  setUrls: (urls: string[] | ((prev: string[]) => string[])) => void;
+  setUrl: (url: string) => void; // Helper to add a single URL to the array
   loading: boolean;
   error: string | null;
   result: TGenerateEmailResponse | null;
@@ -68,13 +69,13 @@ type TOutreacherContextValue = {
   setBusinessFinderLocation: (location: string) => void;
   businessIndustry: string;
   setBusinessIndustry: (industry: string) => void;
-  businessLocation: string;
-  setBusinessLocation: (location: string) => void;
+  businessLocations: string[];
+  setBusinessLocations: (locations: string[] | ((prev: string[]) => string[])) => void;
   businessGenerateButtonProps: TGenerateButtonProps | null;
   businessSearchResults: TBusinessSearchResults | null;
   businessLastQuerySummary: string | null;
   businessError: string | null;
-  handleBusinessSearch: (industry?: string, location?: string) => Promise<void>;
+  handleBusinessSearch: (industry?: string, locations?: string[]) => Promise<void>;
 
   // Timezone timeline state
   selectedTimezones: Set<number>;
@@ -105,7 +106,7 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
   children,
 }) => {
   // URL Form state
-  const [url, setUrl] = useState<string>('');
+  const [urls, setUrls] = useState<string[]>(['']);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] =
@@ -125,9 +126,9 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
   const [businessIndustry, setBusinessIndustry] = useState<string>(
     'web developer',
   );
-  const [businessLocation, setBusinessLocation] = useState<string>(
+  const [businessLocations, setBusinessLocations] = useState<string[]>([
     'Stockholm, Sweden',
-  );
+  ]);
   const [businessGenerateButtonProps, setBusinessGenerateButtonProps] =
     useState<TGenerateButtonProps | null>(null);
   const [businessSearchResults, setBusinessSearchResults] =
@@ -180,6 +181,24 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
     [],
   );
 
+  // Helper function to add a single URL to the URLs array
+  const setUrl = useCallback((url: string) => {
+    if (!url.trim()) return;
+    setUrls((prev) => {
+      // Don't add duplicates
+      if (prev.includes(url.trim())) {
+        showToast('URL already added', 'info', 'setUrl');
+        return prev;
+      }
+      // If the first URL is empty, replace it; otherwise append
+      if (prev.length === 1 && !prev[0].trim()) {
+        return [url.trim()];
+      }
+      showToast('URL added', 'info', 'setUrl');
+      return [...prev, url.trim()];
+    });
+  }, [setUrls, showToast]);
+
   const copy = useMemo(() => createCopy(showToast), [showToast]);
 
   const handleSubmit = useCallback(
@@ -188,15 +207,17 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
       setError(null);
       setResult(null);
 
-      if (!url) {
-        setError('Please enter a website URL.');
+      const validUrls = urls.filter((url) => url.trim());
+      if (validUrls.length === 0) {
+        setError('Please enter at least one website URL.');
         return;
       }
 
       setLoading(true);
 
       try {
-        const data = await generateEmail(url);
+        // For now, use the first URL. In the future, this could be extended to handle multiple URLs
+        const data = await generateEmail(validUrls[0]);
         setResult(data);
       } catch (err: unknown) {
         setError(
@@ -208,7 +229,7 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
         setLoading(false);
       }
     },
-    [url],
+    [urls],
   );
 
   // Sync preview subject/body when a new result arrives
@@ -247,37 +268,44 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
   // Keyboard shortcuts
   useEffect(() => {
     const handler = createKeyboardShortcutHandler({
-      url,
+      url: urls[0] || '',
       result,
       copy,
     });
 
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [url, result, copy]);
+  }, [urls, result, copy]);
 
-  // Update business location when external location changes
+  // Update business locations when external location changes
   useEffect(() => {
-    if (businessFinderLocation !== businessLocation) {
-      setBusinessLocation(businessFinderLocation);
+    if (businessFinderLocation && !businessLocations.includes(businessFinderLocation)) {
+      setBusinessLocations((prev) => {
+        // If first location is empty, replace it; otherwise add
+        if (prev.length === 1 && !prev[0].trim()) {
+          return [businessFinderLocation];
+        }
+        return [...prev, businessFinderLocation];
+      });
     }
-  }, [businessFinderLocation, businessLocation]);
+  }, [businessFinderLocation, businessLocations]);
 
-  const handleBusinessSearch = useCallback(async (industryOverride?: string, locationOverride?: string) => {
+  const handleBusinessSearch = useCallback(async (industryOverride?: string, locationsOverride?: string[]) => {
     setBusinessError(null);
 
     const trimmedIndustry = (industryOverride || businessIndustry).trim();
-    const trimmedLocation = (locationOverride || businessLocation).trim();
+    const locationsToUse = locationsOverride || businessLocations;
+    const validLocations = locationsToUse.filter((loc) => loc.trim());
 
-    if (!trimmedIndustry || !trimmedLocation) {
+    if (!trimmedIndustry || validLocations.length === 0) {
       setBusinessError(
-        'Please enter both an industry and a location.',
+        'Please enter both an industry and at least one location.',
       );
       setBusinessSearchResults({
         businesses: [],
         isLoading: false,
         statusMessage:
-          'Please enter both an industry and a location.',
+          'Please enter both an industry and at least one location.',
       });
       return;
     }
@@ -290,37 +318,52 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
     });
 
     try {
-      const response = await fetch(
-        'http://localhost:4000/api/businesses/search',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
+      // Search for all locations and combine results
+      const allResults: TBusiness[] = [];
+      
+      for (const location of validLocations) {
+        const response = await fetch(
+          'http://localhost:4000/api/businesses/search',
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              businessType: trimmedIndustry,
+              location: location.trim(),
+              limit: 30,
+            }),
           },
-          body: JSON.stringify({
-            businessType: trimmedIndustry,
-            location: trimmedLocation,
-            limit: 30,
-          }),
-        },
-      );
-
-      if (!response.ok) {
-        const text = await response.text();
-        throw new Error(
-          `Request failed with status ${response.status}: ${text}`,
         );
+
+        if (!response.ok) {
+          const text = await response.text();
+          throw new Error(
+            `Request failed with status ${response.status}: ${text}`,
+          );
+        }
+
+        const data = await response.json();
+        const results: TBusiness[] = data.businesses ?? [];
+        allResults.push(...results);
       }
 
-      const data = await response.json();
-      const results: TBusiness[] = data.businesses ?? [];
+      // Remove duplicates based on business ID
+      const uniqueResults = Array.from(
+        new Map(allResults.map((b) => [b.id, b])).values()
+      );
+
+      const locationSummary = validLocations.length === 1
+        ? validLocations[0]
+        : `${validLocations.length} locations`;
 
       setBusinessLastQuerySummary(
-        `${trimmedIndustry} in ${trimmedLocation} (${results.length} found)`,
+        `${trimmedIndustry} in ${locationSummary} (${uniqueResults.length} found)`,
       );
 
       setBusinessSearchResults({
-        businesses: results,
+        businesses: uniqueResults,
         isLoading: false,
         statusMessage: null,
       });
@@ -339,20 +382,20 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
     } finally {
       setBusinessLoading(false);
     }
-  }, [businessIndustry, businessLocation]);
+  }, [businessIndustry, businessLocations]);
   
   // Also update context state if overrides were provided
-  const handleBusinessSearchWithState = useCallback(async (industry?: string, location?: string) => {
+  const handleBusinessSearchWithState = useCallback(async (industry?: string, locations?: string[]) => {
     if (industry) setBusinessIndustry(industry);
-    if (location) setBusinessLocation(location);
-    await handleBusinessSearch(industry, location);
-  }, [handleBusinessSearch, setBusinessIndustry, setBusinessLocation]);
+    if (locations) setBusinessLocations(locations);
+    await handleBusinessSearch(industry, locations);
+  }, [handleBusinessSearch, setBusinessIndustry, setBusinessLocations]);
 
   // Expose business generate button props
   useEffect(() => {
     const trimmedIndustry = businessIndustry.trim();
-    const trimmedLocation = businessLocation.trim();
-    const isDisabled = !trimmedIndustry || !trimmedLocation;
+    const validLocations = businessLocations.filter((loc) => loc.trim());
+    const isDisabled = !trimmedIndustry || validLocations.length === 0;
 
     setBusinessGenerateButtonProps({
       handleGenerate: () => handleBusinessSearchWithState(),
@@ -361,7 +404,7 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
     });
   }, [
     businessIndustry,
-    businessLocation,
+    businessLocations,
     handleBusinessSearchWithState,
     businessLoading,
   ]);
@@ -388,7 +431,8 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
 
   const value: TOutreacherContextValue = {
     // URL Form state
-    url,
+    urls,
+    setUrls,
     setUrl,
     loading,
     error,
@@ -417,8 +461,8 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
     setBusinessFinderLocation,
     businessIndustry,
     setBusinessIndustry,
-    businessLocation,
-    setBusinessLocation,
+    businessLocations,
+    setBusinessLocations,
     businessGenerateButtonProps,
     businessSearchResults,
     businessLastQuerySummary,
