@@ -94,3 +94,84 @@ declare function registerProcessor(
 ): void;
 
 declare module 'fs-extra';
+
+// Google Maps type declarations
+declare namespace google {
+  namespace maps {
+    namespace places {
+      interface AutocompleteOptions {
+        types?: string[];
+        fields?: string[];
+        componentRestrictions?: { country?: string | string[] };
+        bounds?: any;
+        strictBounds?: boolean;
+      }
+
+      interface PlaceResult {
+        formatted_address?: string;
+        name?: string;
+        geometry?: {
+          location?: {
+            lat(): number;
+            lng(): number;
+          };
+        };
+        place_id?: string;
+      }
+
+      class Autocomplete {
+        constructor(
+          inputField: HTMLInputElement,
+          opts?: AutocompleteOptions,
+        );
+        getPlace(): PlaceResult;
+        addListener(
+          eventName: string,
+          handler: () => void,
+        ): void;
+      }
+
+      interface PlaceAutocompleteElementOptions {
+        requestedResultTypes?: string[];
+        requestedFields?: string[];
+        locationRestriction?: any;
+        componentRestrictions?: { country?: string | string[] };
+      }
+
+      interface Place {
+        formattedAddress?: string;
+        formatted_address?: string;
+        name?: string;
+        displayName?: string;
+        display_name?: string;
+        geometry?: {
+          location?: {
+            lat: number;
+            lng: number;
+          };
+        };
+        place_id?: string;
+      }
+
+      class PlaceAutocompleteElement {
+        constructor(opts?: PlaceAutocompleteElementOptions);
+        input: HTMLInputElement | null;
+        value: Place | null;
+        addEventListener(
+          eventName: 'gmp-placeselect',
+          handler: (event: { place: Place }) => void,
+        ): void;
+        removeEventListener(
+          eventName: 'gmp-placeselect',
+          handler: (event: { place: Place }) => void,
+        ): void;
+      }
+    }
+
+    namespace event {
+      function clearInstanceListeners(
+        instance: any,
+      ): void;
+    }
+  }
+}

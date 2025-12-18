@@ -1,6 +1,6 @@
 {
   "name": "@brysonandrew/uno-presets",
-  "version": "7.0.122",
+  "version": "7.0.111",
   "description": "Uno presets library",
   "main": "./index.ts",
   "module": "./index.ts",
@@ -21,10 +21,10 @@
     "typescript"
   ],
   "peerDependencies": {
-    "@brysonandrew/config-types": "7.0.122",
+    "@brysonandrew/config-types": "7.0.111",
     "unocss": "^66.5.10",
     "@unocss/preset-web-fonts": "*",
-    "@brysonandrew/config-constants-fonts": "7.0.122"
+    "@brysonandrew/config-constants-fonts": "7.0.111"
   },
   "exports": {
     ".": {

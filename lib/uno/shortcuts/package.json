@@ -1,6 +1,6 @@
 {
   "name": "@brysonandrew/uno-shortcuts",
-  "version": "7.0.122",
+  "version": "7.0.111",
   "description": "Uno shortcuts library",
   "main": "./index.ts",
   "module": "./index.ts",
@@ -34,6 +34,8 @@
     "./interactive": "./interactive.ts",
     "./layout": "./layout.ts",
     "./opacity": "./opacity.ts",
+    "./text/color": "./text/color.ts",
+    "./text": "./text/index.ts",
     "./neu/constants": "./neu/constants.ts",
     "./neu/format": "./neu/format.ts",
     "./neu/mappers": "./neu/mappers.ts",
@@ -42,8 +44,6 @@
     "./neu/resolveNeuClasses": "./neu/resolveNeuClasses.ts",
     "./neu/resolveNeuShadow": "./neu/resolveNeuShadow.ts",
     "./neu/types": "./neu/types.ts",
-    "./text/color": "./text/color.ts",
-    "./text": "./text/index.ts",
     "./neu/ranges": "./neu/ranges/index.ts",
     "./neu/ranges/resolveRange": "./neu/ranges/resolveRange.ts"
   }

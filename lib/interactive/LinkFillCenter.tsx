@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { TLinkMotionProps } from '@brysonandrew/config-types/dom/motion';
 import { resolveAccessibilityTitles } from '@brysonandrew/utils-attributes/resolveAccessibilityTitles';
 
-const Link = styled(motion(_Link))``;
+const Link = styled(motion.create(_Link))``;
 
 export type TLinkFillCenterProps = TLinkMotionProps;
 export const LinkFillCenter: FC<TLinkFillCenterProps> = ({

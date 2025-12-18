@@ -2,8 +2,8 @@ import { TAboutCopy } from "@pages/about/types";
 
 export const ABOUT_COPY = {
   intro: {
-    title: `Hi, I’m Andrew — a New Zealand Front-End
-            Developer focused on clean, modern, reliable
+    title: `Hi, I'm Andrew — a Front-End
+            Developer based in North Vancouver, Vancouver, Canada, focused on clean, modern, reliable
             interfaces.`,
     paragraphs: [
       `I’ve spent the last 9+ years building fast, accessible, and user-friendly web applications using React, Vue, TypeScript, and Next.js/Nuxt.`,
@@ -64,7 +64,7 @@ export const ABOUT_COPY = {
           'startups and founders',
         ],
       },
-      `…across New Zealand, Australia, Europe, and North America — often bridging multiple time zones.`,
+      `…across Canada, Australia, Europe, and North America — often bridging multiple time zones.`,
       `Whether you need a single front-end feature, a complete web application, or ongoing support, I can integrate smoothly with your team and deliver work you can trust.`,
     ],
   },
@@ -72,7 +72,7 @@ export const ABOUT_COPY = {
   aboutMe: {
     title: `A bit more about me`,
     blocks: [
-      `I’m originally from New Zealand, now based in Poland, working primarily with clients in Europe, Australia, and North America.`,
+      `I'm based in North Vancouver, Vancouver, Canada, working primarily with clients in North America, Europe, and Australia.`,
       `Outside of development, I spend my time creating AI-driven projects, audio tools, and music — often combining technology and creativity in unique ways.`,
     ],
   },

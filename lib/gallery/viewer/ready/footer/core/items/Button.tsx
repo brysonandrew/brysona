@@ -13,7 +13,7 @@ import { resolveParentAnimateConfig } from '@brysonandrew/motion-core';
 import { Glow } from '@brysonandrew/layout-effects';
 import { NAME_KEY } from '@brysonandrew/gallery/config/constants';
 
-const Link = styled(motion(_Link))``;
+const Link = styled(motion.create(_Link))``;
 
 export type TButtonProps = {
   width: number;

@@ -11,7 +11,7 @@ import { useTo } from '@brysonandrew/gallery-viewer/hooks/nav/useTo';
 import { I } from '@brysonandrew/icons-i';
 import { OPEN_IN_NEW_ICON } from '@brysonandrew/icons-keys';
 
-const InternalLink = motion(Link);
+const InternalLink = motion.create(Link);
 
 type TProps = TItem & {
   onClose?(): void;
