@@ -19,6 +19,18 @@ export const OUTREACH_COUNTRIES: TOutreachCountry[] = [
   },
   {
     country: 'Canada',
+    city: 'Calgary',
+    timeZone: 'America/Edmonton',
+    region: 'NA',
+  },
+  {
+    country: 'Canada',
+    city: 'Winnipeg',
+    timeZone: 'America/Winnipeg',
+    region: 'NA',
+  },
+  {
+    country: 'Canada',
     city: 'Halifax',
     timeZone: 'America/Halifax',
     region: 'NA',
@@ -45,6 +57,24 @@ export const OUTREACH_COUNTRIES: TOutreachCountry[] = [
     country: 'Australia',
     city: 'Sydney',
     timeZone: 'Australia/Sydney',
+    region: 'AU',
+  },
+  {
+    country: 'Australia',
+    city: 'Brisbane',
+    timeZone: 'Australia/Brisbane',
+    region: 'AU',
+  },
+  {
+    country: 'Australia',
+    city: 'Darwin',
+    timeZone: 'Australia/Darwin',
+    region: 'AU',
+  },
+  {
+    country: 'Australia',
+    city: 'Canberra',
+    timeZone: 'Australia/Canberra',
     region: 'AU',
   },
   {

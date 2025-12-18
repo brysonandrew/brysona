@@ -5,7 +5,9 @@ import type { EmailBits, BuiltEmail } from '../types';
 //     ? `If it helps, I'm happy to put together a small demo along these lines: ${demoIdea}\n`
 //     : ''
 
-export const INTRO = "I’m a frontend web developer from New Zealand, now based in Poland, with 9+ years of experience building React, Next.js, and Vue interfaces in TypeScript, combining hands-on experience with AI tools like ChatGPT and Cursor to accelerate development."
+// export const INTRO = "I’m a frontend web developer from New Zealand, now based in Poland, with 9+ years of experience building React, Next.js, and Vue interfaces in TypeScript, combining hands-on experience with AI tools like ChatGPT and Cursor to ship high-quality UI faster and with less iteration overhead."
+const INTRO =
+  'I’m a senior frontend web developer from New Zealand, now based in Poland, with 9+ years of experience building React, Next.js, and Vue interfaces in TypeScript. I combine hands-on frontend expertise with AI tools like ChatGPT and Cursor to ship high-quality UI faster and with less iteration overhead.';
 
 export const buildEmail = (bits: EmailBits): BuiltEmail => {
   const {

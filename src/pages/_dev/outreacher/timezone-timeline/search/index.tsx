@@ -297,8 +297,8 @@ export const TimezoneTimelineSearch = ({
             id="results-slider"
             type="range"
             min={3}
-            max={24}
-            defaultValue={10}
+            max={48}
+            defaultValue={48}
             className="w-full accent-primary"
           />
         </div>

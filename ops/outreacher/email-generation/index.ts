@@ -35,21 +35,20 @@ You will receive:
 Return a JSON object with:
 
 - "name": string
-  Most likely first name of the owner/decision-maker.
+  Most likely first name of the owner/decision-maker or first word of contact email ONLY if can be identified as a male or female first name.
   If unknown, use a team-style name such as "the [Studio Name] team" or the provided fallback.
 
 - "subject": string
-  <= 60 characters, tailored, no fluff.
+  Always use "Frontend web developer support available for [Studio Name]"
 
 - "cta": string
   One tight paragraph (2–3 sentences, max ~70 words) that:
   - references something specific from their website (services, niches, clientele, style, stack hints, WP/headless, etc.)
   - states ONE concrete way Andrew can help (overflow UI work, polish, performance, animations, hybrid WP blocks, etc.)
-  - ends with ONE simple CTA (choose one):
-      A) "If useful, I can send a 3-bullet plan for a quick first task."
-      B) "If it makes sense, point me to the right person and I’ll send a quick outline."
-      C) "If you’d like, I can propose a small first task to trial the fit."
   - Do NOT include closings/signatures.
+  - Do NOT make promises to the recipient.
+  - Do NOT be too presumptuous with the recipient.
+  - DO make it compelling, not too agency-brochure-ish.
 
 - "offer": string
   A low-friction, productised offer (one sentence). No tech stack repetition.

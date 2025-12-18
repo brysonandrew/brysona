@@ -122,12 +122,12 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
 
   // Business finder state
   const [businessFinderLocation, setBusinessFinderLocation] =
-    useState<string>('Stockholm, Sweden');
+    useState<string>('');
   const [businessIndustry, setBusinessIndustry] = useState<string>(
     'web developer',
   );
   const [businessLocations, setBusinessLocations] = useState<string[]>([
-    'Stockholm, Sweden',
+    '',
   ]);
   const [businessGenerateButtonProps, setBusinessGenerateButtonProps] =
     useState<TGenerateButtonProps | null>(null);

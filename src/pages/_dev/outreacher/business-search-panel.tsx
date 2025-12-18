@@ -188,7 +188,7 @@ const LocationInput: FC<LocationInputProps> = ({
         ref={inputRef}
         id={`location-input-${index}`}
         className="h-9 flex-1 rounded-xl border border-white-02 bg-black-2 px-3.5 py-2.5 pr-10 text-sm text-white-9 placeholder:text-white-06 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary-06"
-        placeholder="e.g. Stockholm, Sweden"
+        placeholder="e.g. Town, City, Country"
         value={value}
         onChange={(e) => {
           if (isSelectingFromAutocompleteRef.current) return;
