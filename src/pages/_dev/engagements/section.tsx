@@ -1,4 +1,4 @@
-import { EngagementsCard } from '@pages/_dev/engagements/Card';
+import { EngagementsCard } from '@pages/_dev/engagements/card';
 import type { TEngagement } from './types';
 
 type TProps = {
