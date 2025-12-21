@@ -1,6 +1,6 @@
 {
   "name": "@brysonandrew/config-types",
-  "version": "7.0.111",
+  "version": "7.0.122",
   "description": "Config types library",
   "main": "./index.ts",
   "module": "./index.ts",
@@ -21,14 +21,14 @@
     "typescript"
   ],
   "peerDependencies": {
-    "react": "^18.3.1",
-    "@brysonandrew/uno-shortcuts": "7.0.111",
+    "react": "^19.2.1",
+    "@brysonandrew/uno-shortcuts": "7.0.122",
     "class-variance-authority": "^0.7.0",
-    "framer-motion": "^11.11.11",
-    "react-router-dom": "^6.27.0",
+    "framer-motion": "^12.23.26",
+    "react-router-dom": "^7.10.0",
     "@unocss/preset-web-fonts": "*",
-    "@brysonandrew/config-constants-fonts": "7.0.111",
-    "@brysonandrew/config-constants-number": "7.0.111",
+    "@brysonandrew/config-constants-fonts": "7.0.122",
+    "@brysonandrew/config-constants-number": "7.0.122",
     "unocss": "^66.5.10"
   },
   "exports": {

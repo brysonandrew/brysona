@@ -1,6 +1,6 @@
 import { useHtmlTitle } from '@brysonandrew/head';
 import { useApp } from '@brysonandrew/app';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from '@dr.pogodin/react-helmet';
 import {
   defaultTitlesResolver,
   TTitlesResolver,

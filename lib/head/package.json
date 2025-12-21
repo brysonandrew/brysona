@@ -22,7 +22,7 @@
   ],
   "peerDependencies": {
     "react": "^19.2.0",
-    "react-helmet-async": "^2.0.5",
+    "@dr.pogodin/react-helmet": "*",
     "@brysonandrew/app": "7.0.122",
     "@brysonandrew/color-base": "7.0.122",
     "@brysonandrew/routes": "7.0.122",

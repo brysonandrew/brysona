@@ -1,5 +1,5 @@
 import type { FC, PropsWithChildren } from 'react';
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from '@dr.pogodin/react-helmet';
 
 export const HeadHelmetProvider: FC<PropsWithChildren> = ({
   children,

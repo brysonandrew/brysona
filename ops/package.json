@@ -33,11 +33,11 @@
     "react": "^19.2.0",
     "react-device-detect": "^2.2.3",
     "react-dom": "^19.2.0",
-    "react-helmet-async": "^2.0.5",
+    "@dr.pogodin/react-helmet": "*",
     "react-intersection-observer": "^10.0.0",
     "react-router": "^7.10.0",
     "react-router-dom": "^7.10.0",
-    "react-synthwave": "^1.2.7"
+    "react-synthwave": "^2.2.0"
   },
   "devDependencies": {
     "rollup": "^3.29.4",
