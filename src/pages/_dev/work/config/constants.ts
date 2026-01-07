@@ -7,6 +7,10 @@ import {
 
 export const HOURLY_MAX = 120;
 
+export const PROPOSALS_DEFAULT = {
+  proposals: '0-4',
+};
+
 export const HOURLY_DEFAULT = {
   min: 40,
   max: HOURLY_MAX,

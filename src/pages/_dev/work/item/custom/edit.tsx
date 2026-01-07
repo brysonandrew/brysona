@@ -17,7 +17,7 @@ export const WorkItemEdit: FC = () => {
   const href = pathHandlers.href(params);
 
   const isValue = Boolean(q);
-  const width = `calc(${q.toString().length}ch + 6rem)`;
+  const width = `calc(${q.toString().length}ch + 12rem)`;
 
   const handleKeyDown: KeyboardEventHandler = (event) => {
     if (event.key === 'Enter') {

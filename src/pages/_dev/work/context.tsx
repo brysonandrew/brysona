@@ -11,6 +11,7 @@ import { NOOP } from '@brysonandrew/utils-function';
 import {
   HOURLY_DEFAULT,
   ITEMS,
+  PROPOSALS_DEFAULT,
   UPWORK_BASE,
 } from '@pages/_dev/work/config/constants';
 import {
@@ -80,6 +81,7 @@ const INIT: TWorkStateContext = {
     hourly: HOURLY_DEFAULT,
     isExpert: true,
     isIntermediate: false,
+    ...PROPOSALS_DEFAULT,
   },
   items: ITEMS,
   reset: NOOP,
@@ -107,17 +109,17 @@ export const WorkStateProvider: FC<PropsWithChildren> = ({
     isContainer: true,
   });
   const [keyRecord, setKeyRecord] = useState(
-    INIT.keyRecord
+    INIT.keyRecord,
   );
   const [input, setWorkInput] = useState<TWorkInput>(null);
   const [items, setItems] = useLocalStorage<TInitIdItems>(
     resolveKey('items'),
-    INIT.items
+    INIT.items,
   );
   const [commonState, setState] =
     useLocalStorage<TCommonState>(
       resolveKey('filters'),
-      INIT.commonState
+      INIT.commonState,
     );
   const reset = () => setItems(ITEMS);
   const remove = (id: string) =>
@@ -126,7 +128,7 @@ export const WorkStateProvider: FC<PropsWithChildren> = ({
     setItems((prev) => [item, ...prev]);
   const [q, setQ] = useLocalStorage(
     resolveKey('q'),
-    INIT.q ?? 'query'
+    INIT.q ?? 'query',
   );
 
   useKey({
@@ -152,7 +154,7 @@ export const WorkStateProvider: FC<PropsWithChildren> = ({
             event.shiftKey,
             event.altKey,
             event,
-            event.key
+            event.key,
           );
           setKeyRecord((prev) => ({
             ...prev,
@@ -160,7 +162,6 @@ export const WorkStateProvider: FC<PropsWithChildren> = ({
           }));
         }
 
-       
         if (event.key === 'Shift') {
           setKeyRecord((prev) => ({
             ...prev,
@@ -198,11 +199,11 @@ export const WorkStateProvider: FC<PropsWithChildren> = ({
 
   const resolveParams = (
     q: string,
-    commonState: TCommonState
+    commonState: TCommonState,
   ) => {
     const params = resolveUpworkParams(commonState);
     const restParams = new URLSearchParams(
-      params
+      params,
     ).toString();
     return q
       ? `q=${q}${restParams ? `&${restParams}` : ''}`
