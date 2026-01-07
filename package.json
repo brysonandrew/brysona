@@ -96,6 +96,9 @@
   "publishConfig": {
     "@brysonandrew:registry": "https://npm.pkg.github.com"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.xx.x"
+  },
   "homepage": "brysona.dev",
   "workspaces": [
     "lib/app",
