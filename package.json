@@ -97,7 +97,7 @@
     "@brysonandrew:registry": "https://npm.pkg.github.com"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.xx.x"
+    "@rollup/rollup-linux-x64-gnu": "4.54.0"
   },
   "homepage": "brysona.dev",
   "workspaces": [
