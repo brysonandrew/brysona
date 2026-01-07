@@ -11,19 +11,20 @@ type TProps = {
   max: number;
 };
 export const Arrows: FC<TProps> = (props) => {
+  if (props.max < 2) return null;
   return (
     <>
       <Circle
-        position='absolute'
+        position="absolute"
         classValue={cx(
           BASE_NAV_BUTTON_CLASS,
           'left-4 md:left-6',
         )}
-      > 
+      >
         <Left {...props} />
       </Circle>
-      <Circle 
-        position='absolute'
+      <Circle
+        position="absolute"
         classValue={cx(
           BASE_NAV_BUTTON_CLASS,
           'right-4 md:right-6',

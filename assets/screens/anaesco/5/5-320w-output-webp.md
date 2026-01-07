@@ -4,5 +4,5 @@
   "height": 161,
   "channels": 4,
   "premultiplied": false,
-  "size": 10526
+  "size": 10528
 }

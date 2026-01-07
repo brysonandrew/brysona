@@ -7,8 +7,14 @@
   "depth": "uchar",
   "density": 72,
   "isProgressive": false,
+  "isPalette": false,
+  "bitsPerSample": 8,
   "hasProfile": false,
   "hasAlpha": false,
+  "autoOrient": {
+    "width": 320,
+    "height": 164
+  },
   "premultiplied": false,
-  "size": 22445
+  "size": 22467
 }

@@ -7,6 +7,8 @@
   "depth": "uchar",
   "density": 144,
   "isProgressive": false,
+  "isPalette": false,
+  "bitsPerSample": 8,
   "background": {
     "r": 255,
     "g": 255,
@@ -14,6 +16,10 @@
   },
   "hasProfile": true,
   "hasAlpha": true,
+  "autoOrient": {
+    "width": 3376,
+    "height": 1710
+  },
   "icc": {
     "type": "Buffer",
     "data": [
@@ -4051,6 +4057,7 @@
       0
     ]
   },
+  "xmpAsString": "<?xpacket begin=\"﻿\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>\n<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\"\n    xmlns:stEvt=\"http://ns.adobe.com/xap/1.0/sType/ResourceEvent#\"\n    xmlns:GIMP=\"http://www.gimp.org/xmp/\"\n    xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n    xmlns:exif=\"http://ns.adobe.com/exif/1.0/\"\n    xmlns:tiff=\"http://ns.adobe.com/tiff/1.0/\"\n    xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\"\n   xmpMM:DocumentID=\"gimp:docid:gimp:8a9b27c4-c38b-406a-b7a9-d1bcb2350c65\"\n   xmpMM:InstanceID=\"xmp.iid:9800a6e5-387f-4e70-9c83-a1fe758363b7\"\n   xmpMM:OriginalDocumentID=\"xmp.did:5ae214e9-5553-4fc1-99e4-15552914c2d6\"\n   GIMP:API=\"2.0\"\n   GIMP:Platform=\"Mac OS\"\n   GIMP:TimeStamp=\"1704655768027252\"\n   GIMP:Version=\"2.10.36\"\n   dc:Format=\"image/png\"\n   exif:PixelXDimension=\"3376\"\n   exif:PixelYDimension=\"1710\"\n   tiff:Orientation=\"1\"\n   xmp:CreatorTool=\"GIMP 2.10\"\n   xmp:MetadataDate=\"2024:01:08T08:29:25+13:00\"\n   xmp:ModifyDate=\"2024:01:08T08:29:25+13:00\">\n   <xmpMM:History>\n    <rdf:Seq>\n     <rdf:li\n      stEvt:action=\"saved\"\n      stEvt:changed=\"/\"\n      stEvt:instanceID=\"xmp.iid:53af2f07-ca47-43cc-8f84-eaa7fcd2ead4\"\n      stEvt:softwareAgent=\"Gimp 2.10 (Mac OS)\"\n      stEvt:when=\"2024-01-08T08:29:28+13:00\"/>\n    </rdf:Seq>\n   </xmpMM:History>\n   <exif:UserComment>\n    <rdf:Alt>\n     <rdf:li xml:lang=\"x-default\">Screenshot</rdf:li>\n    </rdf:Alt>\n   </exif:UserComment>\n  </rdf:Description>\n </rdf:RDF>\n</x:xmpmeta>\n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                           \n<?xpacket end=\"w\"?>",
   "xmp": {
     "type": "Buffer",
     "data": [

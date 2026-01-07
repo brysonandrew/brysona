@@ -17,6 +17,7 @@ export const Right: FC<TProps> = ({ max, ...props }) => {
     BIG_CURSOR_KEY,
     title,
   );
+
   if (!to) return null;
 
   return (

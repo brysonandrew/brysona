@@ -13,10 +13,8 @@ import {
 type TProps = TBaseProps;
 export const Footer: FC<TProps> = (props) => {
   const { BackMotionFill, GLOW_BOX } = useApp();
-  const { handlers } = useHover(
-    BIG_CURSOR_KEY,
-    'footer'
-  );
+  const { handlers } = useHover(BIG_CURSOR_KEY, 'footer');
+  if (props.count < 2) return null;
   return (
     <motion.footer
       className="relative flex justify-center w-full z-10"

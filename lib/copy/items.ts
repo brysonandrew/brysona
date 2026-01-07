@@ -8,15 +8,40 @@ import {
   INVISION,
   STRIPE,
   REMOTION,
+  GATSBY,
   TAILWIND_CSS,
   VUE,
   NUXT_JS,
+  WORDPRESS,
+  MONDAY_COM,
+  MAKE,
 } from './third-party';
+
+export const STIKKY = {
+  title: 'Stikky',
+  description: 'Marketing agency',
+  href: 'https://stikky.com.au/',
+  tags: [
+    GATSBY,
+    REACT,
+    WORDPRESS,
+    MONDAY_COM,
+    MAKE,
+    STRIPE,
+    TYPESCRIPT,
+    TAILWIND_CSS,
+  ],
+  paragraphs: [
+    'Gatsby to Wordpress conversion.',
+    'Site maintenance.',
+    'CRM pipelines.',
+  ],
+};
 
 export const INSURGENCE = {
   title: 'Insurgence',
   description: 'AI Consultants and Engineers',
-  pricing: 'select',
+
   href: 'https://insurgence.ai/',
   tags: [
     VUE,
@@ -37,7 +62,6 @@ export const INSURGENCE = {
 export const REPURPOSE = {
   title: 'Repurpose',
   description: 'Video Editor',
-  pricing: 'select',
   href: 'https://repurpose.io/',
   tags: [
     REMOTION,
@@ -51,15 +75,17 @@ export const REPURPOSE = {
   paragraphs: [
     'Using Remotion to programmatically combine text, images, and background layers into a rendered video.',
     'AI subtitles and video clip generation.',
-    'Video player UI/UX — controls, interactions, and viewing experience.'
+    'Video player UI/UX — controls, interactions, and viewing experience.',
   ],
 };
 
 export const INIT_PROJECT_ITEMS = [
+  STIKKY,
+  INSURGENCE,
   {
     title: 'Take Shape',
     description: 'Painting services portal',
-    pricing: 'select',
+
     href: 'https://www.takeshapehome.com/',
     time: new Date(2024, 11, 1),
     tags: [
@@ -75,6 +101,7 @@ export const INIT_PROJECT_ITEMS = [
       'Conditional forms.',
     ],
   },
+  REPURPOSE,
   {
     title: 'Luridescence',
     description: 'Prints E-commerce (Concept)',
@@ -90,7 +117,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Anaesco',
     description: 'Patient Portal',
-    pricing: 'select',
+
     href: 'https://anaesco.com.au/',
     tags: [REACT, TYPESCRIPT, FRAMER_MOTION],
     time: new Date(2024, 0, 5),
@@ -115,7 +142,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Lambda X',
     description: 'AI PDF Reader',
-    pricing: 'select',
+
     href: 'https://www.cognitusconsulting.com',
     tags: [REACT, TYPESCRIPT, FRAMER_MOTION],
     time: new Date(2023, 8, 1),
@@ -128,7 +155,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Insight Factory',
     description: 'Process Management System',
-    pricing: 'select',
+
     href: 'https://www.insightfactory.ai/',
     tags: [
       REACT,
@@ -150,7 +177,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Canvas',
     description: 'Blockchain Portal',
-    pricing: 'select',
+
     tags: [
       REACT,
       TYPESCRIPT,
@@ -170,7 +197,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Juke',
     description: 'NFT Admin and Marketplace',
-    pricing: 'select',
+
     tags: [REACT, TYPESCRIPT, NEXT_JS, FIGMA, INVISION],
     href: 'https://www.juke.io/',
     time: new Date(2021, 8, 1),
@@ -182,7 +209,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Buzzcast',
     description: 'Virtual Event Platform',
-    pricing: 'select',
+
     tags: [
       REACT,
       {
@@ -200,7 +227,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Stock Portfolio',
     description: 'Investment Manager',
-    pricing: 'select',
+
     tags: [REACT, TYPESCRIPT],
     time: new Date(2020, 11, 1),
     paragraphs: [
@@ -211,7 +238,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Epirus',
     time: new Date('2019-03-15T00:00:00.000Z'),
-    pricing: 'select',
+
     href: 'https://www.web3labs.com/sirato',
     category: 'Web App',
     tags: [
@@ -239,7 +266,7 @@ export const INIT_PROJECT_ITEMS = [
   {
     title: 'Porizi',
     time: new Date(2016, 10, 7),
-    pricing: 'select',
+
     category: 'Web App',
     tags: [REACT, TYPESCRIPT],
     description: 'Marketing website',

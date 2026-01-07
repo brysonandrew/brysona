@@ -5,9 +5,13 @@
   "space": "srgb",
   "channels": 3,
   "depth": "uchar",
-  "density": 72,
   "isProgressive": false,
-  "paletteBitDepth": 8,
+  "isPalette": false,
+  "bitsPerSample": 8,
   "hasProfile": false,
-  "hasAlpha": false
+  "hasAlpha": false,
+  "autoOrient": {
+    "width": 3456,
+    "height": 1998
+  }
 }

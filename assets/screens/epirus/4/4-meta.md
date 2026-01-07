@@ -8,6 +8,11 @@
   "density": 72,
   "chromaSubsampling": "4:4:4",
   "isProgressive": true,
+  "isPalette": false,
   "hasProfile": false,
-  "hasAlpha": false
+  "hasAlpha": false,
+  "autoOrient": {
+    "width": 3338,
+    "height": 1686
+  }
 }

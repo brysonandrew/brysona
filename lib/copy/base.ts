@@ -40,12 +40,6 @@ export const CV_ITEMS = [
   RECORD['Insight Factory'],
 ];
 
-const LATEST_PROJECTS = [
-  ...INIT_PROJECT_ITEMS.filter(
-    ({ pricing }) => pricing === 'select',
-  ).slice(0, 3),
-];
-
 export const CV_PRESETS_RECORD = {
   LATEST: CV_ITEMS,
   MEDIA: [

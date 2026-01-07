@@ -1,14 +1,19 @@
 {
   "format": "png",
   "width": 320,
-  "height": 385,
+  "height": 361,
   "space": "srgb",
   "channels": 3,
   "depth": "uchar",
-  "density": 72,
   "isProgressive": false,
+  "isPalette": false,
+  "bitsPerSample": 8,
   "hasProfile": false,
   "hasAlpha": false,
+  "autoOrient": {
+    "width": 320,
+    "height": 361
+  },
   "premultiplied": false,
-  "size": 52355
+  "size": 72058
 }

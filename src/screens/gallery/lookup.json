@@ -1,236 +1,4 @@
 {
-  "anaesco": [
-    {
-      "src": "screens/anaesco/1/1.png",
-      "alt": "1",
-      "project": "anaesco",
-      "name": "1",
-      "dir": "anaesco",
-      "width": 3408,
-      "height": 1722,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/anaesco/1/1.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/anaesco/1/1.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/anaesco/2/2.png",
-      "alt": "2",
-      "project": "anaesco",
-      "name": "2",
-      "dir": "anaesco",
-      "width": 3408,
-      "height": 1722,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/anaesco/2/2.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/anaesco/2/2.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/anaesco/3/3.png",
-      "alt": "3",
-      "project": "anaesco",
-      "name": "3",
-      "dir": "anaesco",
-      "width": 3378,
-      "height": 1720,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/anaesco/3/3.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/anaesco/3/3.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/anaesco/4/4.png",
-      "alt": "4",
-      "project": "anaesco",
-      "name": "4",
-      "dir": "anaesco",
-      "width": 3376,
-      "height": 1710,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/anaesco/4/4.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/anaesco/4/4.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/anaesco/5/5.png",
-      "alt": "5",
-      "project": "anaesco",
-      "name": "5",
-      "dir": "anaesco",
-      "width": 3364,
-      "height": 1688,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/anaesco/5/5.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/anaesco/5/5.png"
-        }
-      ]
-    }
-  ],
-  "canvas": [
-    {
-      "src": "screens/canvas/1/1.png",
-      "alt": "1",
-      "project": "canvas",
-      "name": "1",
-      "dir": "canvas",
-      "width": 3456,
-      "height": 1736,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/canvas/1/1.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/canvas/1/1.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/canvas/2/2.png",
-      "alt": "2",
-      "project": "canvas",
-      "name": "2",
-      "dir": "canvas",
-      "width": 3456,
-      "height": 3852,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/canvas/2/2.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/canvas/2/2.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/canvas/3/3.png",
-      "alt": "3",
-      "project": "canvas",
-      "name": "3",
-      "dir": "canvas",
-      "width": 3456,
-      "height": 3852,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/canvas/3/3.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/canvas/3/3.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/canvas/4/4.png",
-      "alt": "4",
-      "project": "canvas",
-      "name": "4",
-      "dir": "canvas",
-      "width": 3456,
-      "height": 1614,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/canvas/4/4.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/canvas/4/4.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/canvas/5/5.png",
-      "alt": "5",
-      "project": "canvas",
-      "name": "5",
-      "dir": "canvas",
-      "width": 3456,
-      "height": 2076,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/canvas/5/5.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/canvas/5/5.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/canvas/6/6.png",
-      "alt": "6",
-      "project": "canvas",
-      "name": "6",
-      "dir": "canvas",
-      "width": 3456,
-      "height": 3852,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/canvas/6/6.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/canvas/6/6.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/canvas/7/7.png",
-      "alt": "7",
-      "project": "canvas",
-      "name": "7",
-      "dir": "canvas",
-      "width": 3456,
-      "height": 2260,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/canvas/7/7.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/canvas/7/7.png"
-        }
-      ]
-    }
-  ],
   "buzzcast": [
     {
       "src": "screens/buzzcast/1/1.png",
@@ -347,6 +115,259 @@
       ]
     }
   ],
+  "anaesco": [
+    {
+      "src": "screens/anaesco/1/1.png",
+      "alt": "1",
+      "project": "anaesco",
+      "name": "1",
+      "dir": "anaesco",
+      "width": 3408,
+      "height": 1722,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/anaesco/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/anaesco/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/anaesco/2/2.png",
+      "alt": "2",
+      "project": "anaesco",
+      "name": "2",
+      "dir": "anaesco",
+      "width": 3378,
+      "height": 1720,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/anaesco/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/anaesco/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/anaesco/3/3.png",
+      "alt": "3",
+      "project": "anaesco",
+      "name": "3",
+      "dir": "anaesco",
+      "width": 3408,
+      "height": 1722,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/anaesco/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/anaesco/3/3.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/anaesco/4/4.png",
+      "alt": "4",
+      "project": "anaesco",
+      "name": "4",
+      "dir": "anaesco",
+      "width": 3376,
+      "height": 1710,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/anaesco/4/4.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/anaesco/4/4.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/anaesco/5/5.png",
+      "alt": "5",
+      "project": "anaesco",
+      "name": "5",
+      "dir": "anaesco",
+      "width": 3364,
+      "height": 1688,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/anaesco/5/5.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/anaesco/5/5.png"
+        }
+      ]
+    }
+  ],
+  "canvas": [
+    {
+      "src": "screens/canvas/1/1.png",
+      "alt": "1",
+      "project": "canvas",
+      "name": "1",
+      "dir": "canvas",
+      "width": 3456,
+      "height": 1736,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/canvas/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/canvas/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/canvas/2/2.png",
+      "alt": "2",
+      "project": "canvas",
+      "name": "2",
+      "dir": "canvas",
+      "width": 3456,
+      "height": 3852,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/canvas/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/canvas/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/canvas/3/3.png",
+      "alt": "3",
+      "project": "canvas",
+      "name": "3",
+      "dir": "canvas",
+      "width": 3456,
+      "height": 1614,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/canvas/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/canvas/3/3.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/canvas/4/4.png",
+      "alt": "4",
+      "project": "canvas",
+      "name": "4",
+      "dir": "canvas",
+      "width": 3456,
+      "height": 3852,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/canvas/4/4.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/canvas/4/4.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/canvas/5/5.png",
+      "alt": "5",
+      "project": "canvas",
+      "name": "5",
+      "dir": "canvas",
+      "width": 3456,
+      "height": 3852,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/canvas/5/5.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/canvas/5/5.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/canvas/6/6.png",
+      "alt": "6",
+      "project": "canvas",
+      "name": "6",
+      "dir": "canvas",
+      "width": 3456,
+      "height": 2076,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/canvas/6/6.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/canvas/6/6.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/canvas/7/7.png",
+      "alt": "7",
+      "project": "canvas",
+      "name": "7",
+      "dir": "canvas",
+      "width": 3456,
+      "height": 2260,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/canvas/7/7.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/canvas/7/7.png"
+        }
+      ]
+    }
+  ],
+  "insurgence": [
+    {
+      "src": "screens/insurgence/1/1.png",
+      "alt": "1",
+      "project": "insurgence",
+      "name": "1",
+      "dir": "insurgence",
+      "width": 1536,
+      "height": 1024,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/insurgence/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/insurgence/1/1.png"
+        }
+      ]
+    }
+  ],
   "juke": [
     {
       "src": "screens/juke/1/1.png",
@@ -440,451 +461,6 @@
         {
           "type": "image/png",
           "srcSet": "screens/juke/5/5.png"
-        }
-      ]
-    }
-  ],
-  "insight-factory": [
-    {
-      "src": "screens/insight-factory/1/1.png",
-      "alt": "1",
-      "project": "insight-factory",
-      "name": "1",
-      "dir": "insight-factory",
-      "width": 3452,
-      "height": 1612,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/insight-factory/1/1.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/insight-factory/1/1.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/insight-factory/2/2.png",
-      "alt": "2",
-      "project": "insight-factory",
-      "name": "2",
-      "dir": "insight-factory",
-      "width": 3452,
-      "height": 1612,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/insight-factory/2/2.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/insight-factory/2/2.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/insight-factory/3/3.png",
-      "alt": "3",
-      "project": "insight-factory",
-      "name": "3",
-      "dir": "insight-factory",
-      "width": 3450,
-      "height": 1612,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/insight-factory/3/3.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/insight-factory/3/3.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/insight-factory/4/4.png",
-      "alt": "4",
-      "project": "insight-factory",
-      "name": "4",
-      "dir": "insight-factory",
-      "width": 3456,
-      "height": 1614,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/insight-factory/4/4.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/insight-factory/4/4.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/insight-factory/5/5.png",
-      "alt": "5",
-      "project": "insight-factory",
-      "name": "5",
-      "dir": "insight-factory",
-      "width": 3456,
-      "height": 1728,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/insight-factory/5/5.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/insight-factory/5/5.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/insight-factory/6/6.png",
-      "alt": "6",
-      "project": "insight-factory",
-      "name": "6",
-      "dir": "insight-factory",
-      "width": 3456,
-      "height": 1630,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/insight-factory/6/6.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/insight-factory/6/6.png"
-        }
-      ]
-    }
-  ],
-  "lambda-x": [
-    {
-      "src": "screens/lambda-x/1/1.png",
-      "alt": "1",
-      "project": "lambda-x",
-      "name": "1",
-      "dir": "lambda-x",
-      "width": 3444,
-      "height": 1748,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/1/1.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/1/1.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/lambda-x/2/2.png",
-      "alt": "2",
-      "project": "lambda-x",
-      "name": "2",
-      "dir": "lambda-x",
-      "width": 3444,
-      "height": 1748,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/2/2.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/2/2.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/lambda-x/3/3.png",
-      "alt": "3",
-      "project": "lambda-x",
-      "name": "3",
-      "dir": "lambda-x",
-      "width": 1954,
-      "height": 1772,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/3/3.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/3/3.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/lambda-x/4/4.png",
-      "alt": "4",
-      "project": "lambda-x",
-      "name": "4",
-      "dir": "lambda-x",
-      "width": 1954,
-      "height": 1772,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/4/4.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/4/4.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/lambda-x/5/5.png",
-      "alt": "5",
-      "project": "lambda-x",
-      "name": "5",
-      "dir": "lambda-x",
-      "width": 3406,
-      "height": 1760,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/5/5.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/5/5.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/lambda-x/6/6.png",
-      "alt": "6",
-      "project": "lambda-x",
-      "name": "6",
-      "dir": "lambda-x",
-      "width": 3436,
-      "height": 1776,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/6/6.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/6/6.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/lambda-x/7/7.png",
-      "alt": "7",
-      "project": "lambda-x",
-      "name": "7",
-      "dir": "lambda-x",
-      "width": 3440,
-      "height": 1758,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/7/7.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/7/7.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/lambda-x/8/8.png",
-      "alt": "8",
-      "project": "lambda-x",
-      "name": "8",
-      "dir": "lambda-x",
-      "width": 3422,
-      "height": 1548,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/lambda-x/8/8.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/lambda-x/8/8.png"
-        }
-      ]
-    }
-  ],
-  "porizi": [
-    {
-      "src": "screens/porizi/1/1.png",
-      "alt": "1",
-      "project": "porizi",
-      "name": "1",
-      "dir": "porizi",
-      "width": 1775,
-      "height": 2005,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/porizi/1/1.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/porizi/1/1.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/porizi/2/2.png",
-      "alt": "2",
-      "project": "porizi",
-      "name": "2",
-      "dir": "porizi",
-      "width": 1037,
-      "height": 1248,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/porizi/2/2.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/porizi/2/2.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/porizi/3/3.png",
-      "alt": "3",
-      "project": "porizi",
-      "name": "3",
-      "dir": "porizi",
-      "width": 845,
-      "height": 1006,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/porizi/3/3.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/porizi/3/3.png"
-        }
-      ]
-    }
-  ],
-  "stock-portfolio": [
-    {
-      "src": "screens/stock-portfolio/1/1.png",
-      "alt": "1",
-      "project": "stock-portfolio",
-      "name": "1",
-      "dir": "stock-portfolio",
-      "width": 3284,
-      "height": 1588,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/stock-portfolio/1/1.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/stock-portfolio/1/1.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/stock-portfolio/2/2.png",
-      "alt": "2",
-      "project": "stock-portfolio",
-      "name": "2",
-      "dir": "stock-portfolio",
-      "width": 3284,
-      "height": 1588,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/stock-portfolio/2/2.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/stock-portfolio/2/2.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/stock-portfolio/3/3.png",
-      "alt": "3",
-      "project": "stock-portfolio",
-      "name": "3",
-      "dir": "stock-portfolio",
-      "width": 3266,
-      "height": 1558,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/stock-portfolio/3/3.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/stock-portfolio/3/3.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/stock-portfolio/4/4.png",
-      "alt": "4",
-      "project": "stock-portfolio",
-      "name": "4",
-      "dir": "stock-portfolio",
-      "width": 3294,
-      "height": 1796,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/stock-portfolio/4/4.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/stock-portfolio/4/4.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/stock-portfolio/5/5.png",
-      "alt": "5",
-      "project": "stock-portfolio",
-      "name": "5",
-      "dir": "stock-portfolio",
-      "width": 3304,
-      "height": 1786,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/stock-portfolio/5/5.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/stock-portfolio/5/5.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/stock-portfolio/6/6.png",
-      "alt": "6",
-      "project": "stock-portfolio",
-      "name": "6",
-      "dir": "stock-portfolio",
-      "width": 3258,
-      "height": 1810,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/stock-portfolio/6/6.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/stock-portfolio/6/6.png"
         }
       ]
     }
@@ -1005,6 +581,122 @@
       ]
     }
   ],
+  "insight-factory": [
+    {
+      "src": "screens/insight-factory/1/1.png",
+      "alt": "1",
+      "project": "insight-factory",
+      "name": "1",
+      "dir": "insight-factory",
+      "width": 3452,
+      "height": 1612,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/insight-factory/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/insight-factory/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/insight-factory/2/2.png",
+      "alt": "2",
+      "project": "insight-factory",
+      "name": "2",
+      "dir": "insight-factory",
+      "width": 3452,
+      "height": 1612,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/insight-factory/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/insight-factory/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/insight-factory/3/3.png",
+      "alt": "3",
+      "project": "insight-factory",
+      "name": "3",
+      "dir": "insight-factory",
+      "width": 3450,
+      "height": 1612,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/insight-factory/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/insight-factory/3/3.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/insight-factory/4/4.png",
+      "alt": "4",
+      "project": "insight-factory",
+      "name": "4",
+      "dir": "insight-factory",
+      "width": 3456,
+      "height": 1614,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/insight-factory/4/4.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/insight-factory/4/4.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/insight-factory/5/5.png",
+      "alt": "5",
+      "project": "insight-factory",
+      "name": "5",
+      "dir": "insight-factory",
+      "width": 3456,
+      "height": 1728,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/insight-factory/5/5.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/insight-factory/5/5.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/insight-factory/6/6.png",
+      "alt": "6",
+      "project": "insight-factory",
+      "name": "6",
+      "dir": "insight-factory",
+      "width": 3456,
+      "height": 1630,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/insight-factory/6/6.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/insight-factory/6/6.png"
+        }
+      ]
+    }
+  ],
   "luridescence": [
     {
       "src": "screens/luridescence/1/1.png",
@@ -1012,8 +704,8 @@
       "project": "luridescence",
       "name": "1",
       "dir": "luridescence",
-      "width": 3439,
-      "height": 1600,
+      "width": 3456,
+      "height": 2520,
       "sources": [
         {
           "type": "image/webp",
@@ -1050,8 +742,8 @@
       "project": "luridescence",
       "name": "3",
       "dir": "luridescence",
-      "width": 3456,
-      "height": 2520,
+      "width": 3439,
+      "height": 1600,
       "sources": [
         {
           "type": "image/webp",
@@ -1159,6 +851,569 @@
       ]
     }
   ],
+  "lambda-x": [
+    {
+      "src": "screens/lambda-x/1/1.png",
+      "alt": "1",
+      "project": "lambda-x",
+      "name": "1",
+      "dir": "lambda-x",
+      "width": 3444,
+      "height": 1748,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/lambda-x/2/2.png",
+      "alt": "2",
+      "project": "lambda-x",
+      "name": "2",
+      "dir": "lambda-x",
+      "width": 3444,
+      "height": 1748,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/lambda-x/3/3.png",
+      "alt": "3",
+      "project": "lambda-x",
+      "name": "3",
+      "dir": "lambda-x",
+      "width": 1954,
+      "height": 1772,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/3/3.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/lambda-x/4/4.png",
+      "alt": "4",
+      "project": "lambda-x",
+      "name": "4",
+      "dir": "lambda-x",
+      "width": 3406,
+      "height": 1760,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/4/4.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/4/4.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/lambda-x/5/5.png",
+      "alt": "5",
+      "project": "lambda-x",
+      "name": "5",
+      "dir": "lambda-x",
+      "width": 1954,
+      "height": 1772,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/5/5.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/5/5.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/lambda-x/6/6.png",
+      "alt": "6",
+      "project": "lambda-x",
+      "name": "6",
+      "dir": "lambda-x",
+      "width": 3436,
+      "height": 1776,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/6/6.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/6/6.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/lambda-x/7/7.png",
+      "alt": "7",
+      "project": "lambda-x",
+      "name": "7",
+      "dir": "lambda-x",
+      "width": 3440,
+      "height": 1758,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/7/7.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/7/7.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/lambda-x/8/8.png",
+      "alt": "8",
+      "project": "lambda-x",
+      "name": "8",
+      "dir": "lambda-x",
+      "width": 3422,
+      "height": 1548,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/lambda-x/8/8.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/lambda-x/8/8.png"
+        }
+      ]
+    }
+  ],
+  "porizi": [
+    {
+      "src": "screens/porizi/1/1.png",
+      "alt": "1",
+      "project": "porizi",
+      "name": "1",
+      "dir": "porizi",
+      "width": 1037,
+      "height": 1248,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/porizi/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/porizi/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/porizi/2/2.png",
+      "alt": "2",
+      "project": "porizi",
+      "name": "2",
+      "dir": "porizi",
+      "width": 1775,
+      "height": 2005,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/porizi/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/porizi/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/porizi/3/3.png",
+      "alt": "3",
+      "project": "porizi",
+      "name": "3",
+      "dir": "porizi",
+      "width": 845,
+      "height": 1006,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/porizi/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/porizi/3/3.png"
+        }
+      ]
+    }
+  ],
+  "repurpose": [
+    {
+      "src": "screens/repurpose/1/1.png",
+      "alt": "1",
+      "project": "repurpose",
+      "name": "1",
+      "dir": "repurpose",
+      "width": 3442,
+      "height": 1754,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/repurpose/2/2.png",
+      "alt": "2",
+      "project": "repurpose",
+      "name": "2",
+      "dir": "repurpose",
+      "width": 3448,
+      "height": 1777,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/repurpose/3/3.png",
+      "alt": "3",
+      "project": "repurpose",
+      "name": "3",
+      "dir": "repurpose",
+      "width": 3450,
+      "height": 1776,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/3/3.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/repurpose/4/4.png",
+      "alt": "4",
+      "project": "repurpose",
+      "name": "4",
+      "dir": "repurpose",
+      "width": 3450,
+      "height": 1770,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/4/4.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/4/4.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/repurpose/5/5.png",
+      "alt": "5",
+      "project": "repurpose",
+      "name": "5",
+      "dir": "repurpose",
+      "width": 3446,
+      "height": 1450,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/5/5.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/5/5.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/repurpose/6/6.png",
+      "alt": "6",
+      "project": "repurpose",
+      "name": "6",
+      "dir": "repurpose",
+      "width": 3446,
+      "height": 1764,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/6/6.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/6/6.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/repurpose/7/7.png",
+      "alt": "7",
+      "project": "repurpose",
+      "name": "7",
+      "dir": "repurpose",
+      "width": 3450,
+      "height": 1446,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/7/7.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/7/7.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/repurpose/8/8.png",
+      "alt": "8",
+      "project": "repurpose",
+      "name": "8",
+      "dir": "repurpose",
+      "width": 3448,
+      "height": 1456,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/repurpose/8/8.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/repurpose/8/8.png"
+        }
+      ]
+    }
+  ],
+  "stikky": [
+    {
+      "src": "screens/stikky/1/1.png",
+      "alt": "1",
+      "project": "stikky",
+      "name": "1",
+      "dir": "stikky",
+      "width": 1536,
+      "height": 1024,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/stikky/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/stikky/1/1.png"
+        }
+      ]
+    }
+  ],
+  "stock-portfolio": [
+    {
+      "src": "screens/stock-portfolio/1/1.png",
+      "alt": "1",
+      "project": "stock-portfolio",
+      "name": "1",
+      "dir": "stock-portfolio",
+      "width": 3284,
+      "height": 1588,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/stock-portfolio/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/stock-portfolio/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/stock-portfolio/2/2.png",
+      "alt": "2",
+      "project": "stock-portfolio",
+      "name": "2",
+      "dir": "stock-portfolio",
+      "width": 3266,
+      "height": 1558,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/stock-portfolio/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/stock-portfolio/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/stock-portfolio/3/3.png",
+      "alt": "3",
+      "project": "stock-portfolio",
+      "name": "3",
+      "dir": "stock-portfolio",
+      "width": 3284,
+      "height": 1588,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/stock-portfolio/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/stock-portfolio/3/3.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/stock-portfolio/4/4.png",
+      "alt": "4",
+      "project": "stock-portfolio",
+      "name": "4",
+      "dir": "stock-portfolio",
+      "width": 3304,
+      "height": 1786,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/stock-portfolio/4/4.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/stock-portfolio/4/4.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/stock-portfolio/5/5.png",
+      "alt": "5",
+      "project": "stock-portfolio",
+      "name": "5",
+      "dir": "stock-portfolio",
+      "width": 3294,
+      "height": 1796,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/stock-portfolio/5/5.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/stock-portfolio/5/5.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/stock-portfolio/6/6.png",
+      "alt": "6",
+      "project": "stock-portfolio",
+      "name": "6",
+      "dir": "stock-portfolio",
+      "width": 3258,
+      "height": 1810,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/stock-portfolio/6/6.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/stock-portfolio/6/6.png"
+        }
+      ]
+    }
+  ],
+  "take-shape": [
+    {
+      "src": "screens/take-shape/1/1.png",
+      "alt": "1",
+      "project": "take-shape",
+      "name": "1",
+      "dir": "take-shape",
+      "width": 320,
+      "height": 2000,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/take-shape/1/1.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/take-shape/1/1.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/take-shape/2/2.png",
+      "alt": "2",
+      "project": "take-shape",
+      "name": "2",
+      "dir": "take-shape",
+      "width": 1280,
+      "height": 2000,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/take-shape/2/2.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/take-shape/2/2.png"
+        }
+      ]
+    },
+    {
+      "src": "screens/take-shape/3/3.png",
+      "alt": "3",
+      "project": "take-shape",
+      "name": "3",
+      "dir": "take-shape",
+      "width": 320,
+      "height": 2000,
+      "sources": [
+        {
+          "type": "image/webp",
+          "srcSet": "screens/take-shape/3/3.webp"
+        },
+        {
+          "type": "image/png",
+          "srcSet": "screens/take-shape/3/3.png"
+        }
+      ]
+    }
+  ],
   "superior-concrete": [
     {
       "src": "screens/superior-concrete/1/1.png",
@@ -1252,65 +1507,6 @@
         {
           "type": "image/png",
           "srcSet": "screens/superior-concrete/5/5.png"
-        }
-      ]
-    }
-  ],
-  "take-shape": [
-    {
-      "src": "screens/take-shape/1/1.png",
-      "alt": "1",
-      "project": "take-shape",
-      "name": "1",
-      "dir": "take-shape",
-      "width": 320,
-      "height": 2000,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/take-shape/1/1.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/take-shape/1/1.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/take-shape/2/2.png",
-      "alt": "2",
-      "project": "take-shape",
-      "name": "2",
-      "dir": "take-shape",
-      "width": 1280,
-      "height": 2000,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/take-shape/2/2.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/take-shape/2/2.png"
-        }
-      ]
-    },
-    {
-      "src": "screens/take-shape/3/3.png",
-      "alt": "3",
-      "project": "take-shape",
-      "name": "3",
-      "dir": "take-shape",
-      "width": 320,
-      "height": 2000,
-      "sources": [
-        {
-          "type": "image/webp",
-          "srcSet": "screens/take-shape/3/3.webp"
-        },
-        {
-          "type": "image/png",
-          "srcSet": "screens/take-shape/3/3.png"
         }
       ]
     }

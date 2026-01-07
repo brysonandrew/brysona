@@ -8,8 +8,13 @@
   "density": 72,
   "chromaSubsampling": "4:2:0",
   "isProgressive": false,
+  "isPalette": false,
   "hasProfile": true,
   "hasAlpha": false,
+  "autoOrient": {
+    "width": 320,
+    "height": 2000
+  },
   "icc": {
     "type": "Buffer",
     "data": [

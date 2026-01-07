@@ -6,6 +6,10 @@ export const NEXT_JS = {
   title: 'Next.js',
   href: 'https://nextjs.org/',
 };
+export const GATSBY = {
+  title: 'Gatsby',
+  href: 'https://www.gatsbyjs.com/',
+};
 export const VUE = {
   title: 'Vue',
   href: 'https://vuejs.org/',
@@ -45,4 +49,18 @@ export const INVISION = {
 export const STRIPE = {
   title: 'Stripe',
   href: 'https://stripe.com/',
+};
+export const WORDPRESS = {
+  title: 'Wordpress',
+  href: 'https://wordpress.org/',
+};
+
+export const MONDAY_COM = {
+  title: 'monday.com',
+  href: 'https://monday.com/',
+};
+
+export const MAKE = {
+  title: 'Make',
+  href: 'https://make.com/',
 };

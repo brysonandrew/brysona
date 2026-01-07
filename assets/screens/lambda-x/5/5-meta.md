@@ -1,15 +1,21 @@
 {
   "format": "png",
-  "width": 3406,
-  "height": 1760,
+  "width": 1954,
+  "height": 1772,
   "space": "srgb",
   "channels": 4,
   "depth": "uchar",
   "density": 144,
   "isProgressive": false,
+  "isPalette": false,
+  "bitsPerSample": 8,
   "resolutionUnit": "inch",
   "hasProfile": true,
   "hasAlpha": true,
+  "autoOrient": {
+    "width": 1954,
+    "height": 1772
+  },
   "exif": {
     "type": "Buffer",
     "data": [
@@ -115,8 +121,8 @@
       1,
       0,
       0,
-      13,
-      78,
+      7,
+      162,
       160,
       3,
       0,
@@ -128,7 +134,7 @@
       0,
       0,
       6,
-      224,
+      236,
       0,
       0,
       0,
@@ -4190,6 +4196,7 @@
       0
     ]
   },
+  "xmpAsString": "<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 6.0.0\">\n   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n      <rdf:Description rdf:about=\"\"\n            xmlns:exif=\"http://ns.adobe.com/exif/1.0/\">\n         <exif:PixelYDimension>1772</exif:PixelYDimension>\n         <exif:PixelXDimension>1954</exif:PixelXDimension>\n         <exif:UserComment>Screenshot</exif:UserComment>\n      </rdf:Description>\n   </rdf:RDF>\n</x:xmpmeta>\n",
   "xmp": {
     "type": "Buffer",
     "data": [
@@ -4449,8 +4456,8 @@
       62,
       49,
       55,
-      54,
-      48,
+      55,
+      50,
       60,
       47,
       101,
@@ -4506,10 +4513,10 @@
       111,
       110,
       62,
-      51,
+      49,
+      57,
+      53,
       52,
-      48,
-      54,
       60,
       47,
       101,

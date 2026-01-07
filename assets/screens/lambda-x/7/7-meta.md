@@ -7,9 +7,15 @@
   "depth": "uchar",
   "density": 144,
   "isProgressive": false,
+  "isPalette": false,
+  "bitsPerSample": 8,
   "resolutionUnit": "inch",
   "hasProfile": true,
   "hasAlpha": true,
+  "autoOrient": {
+    "width": 3440,
+    "height": 1758
+  },
   "exif": {
     "type": "Buffer",
     "data": [
@@ -4190,6 +4196,7 @@
       0
     ]
   },
+  "xmpAsString": "<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 6.0.0\">\n   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n      <rdf:Description rdf:about=\"\"\n            xmlns:exif=\"http://ns.adobe.com/exif/1.0/\">\n         <exif:PixelYDimension>1758</exif:PixelYDimension>\n         <exif:PixelXDimension>3440</exif:PixelXDimension>\n         <exif:UserComment>Screenshot</exif:UserComment>\n      </rdf:Description>\n   </rdf:RDF>\n</x:xmpmeta>\n",
   "xmp": {
     "type": "Buffer",
     "data": [

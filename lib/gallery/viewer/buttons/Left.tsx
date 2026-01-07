@@ -15,10 +15,11 @@ export const Left: FC<TProps> = ({ max, ...props }) => {
   const title = 'Left';
   const { isHover, handlers } = useHover(
     BIG_CURSOR_KEY,
-    title
+    title,
   );
 
   if (!to) return null;
+  
   return (
     <Nav
       to={to}

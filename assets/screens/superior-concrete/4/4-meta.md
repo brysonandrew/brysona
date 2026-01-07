@@ -7,6 +7,8 @@
   "depth": "uchar",
   "density": 72,
   "isProgressive": false,
+  "isPalette": false,
+  "bitsPerSample": 8,
   "background": {
     "r": 255,
     "g": 255,
@@ -14,6 +16,10 @@
   },
   "hasProfile": true,
   "hasAlpha": true,
+  "autoOrient": {
+    "width": 2134,
+    "height": 2134
+  },
   "icc": {
     "type": "Buffer",
     "data": [
@@ -691,6 +697,7 @@
       66
     ]
   },
+  "xmpAsString": "<?xpacket begin=\"﻿\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>\n<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\"\n    xmlns:stEvt=\"http://ns.adobe.com/xap/1.0/sType/ResourceEvent#\"\n    xmlns:GIMP=\"http://www.gimp.org/xmp/\"\n    xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n    xmlns:tiff=\"http://ns.adobe.com/tiff/1.0/\"\n    xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\"\n   xmpMM:DocumentID=\"gimp:docid:gimp:f7fba8bd-5c99-4399-a06b-06b91001b314\"\n   xmpMM:InstanceID=\"xmp.iid:ba6bb071-3dd9-48f8-adf4-e5ede443aad6\"\n   xmpMM:OriginalDocumentID=\"xmp.did:562aa47b-d0e8-4932-a6f1-e8964705fdd5\"\n   GIMP:API=\"2.0\"\n   GIMP:Platform=\"Mac OS\"\n   GIMP:TimeStamp=\"1705019911145292\"\n   GIMP:Version=\"2.10.36\"\n   dc:Format=\"image/png\"\n   tiff:Orientation=\"1\"\n   xmp:CreatorTool=\"GIMP 2.10\"\n   xmp:MetadataDate=\"2024:01:12T13:38:29+13:00\"\n   xmp:ModifyDate=\"2024:01:12T13:38:29+13:00\">\n   <xmpMM:History>\n    <rdf:Seq>\n     <rdf:li\n      stEvt:action=\"saved\"\n      stEvt:changed=\"/\"\n      stEvt:instanceID=\"xmp.iid:4289b318-22d4-477c-a334-9cae2f479fa2\"\n      stEvt:softwareAgent=\"Gimp 2.10 (Mac OS)\"\n      stEvt:when=\"2024-01-12T13:38:31+13:00\"/>\n    </rdf:Seq>\n   </xmpMM:History>\n  </rdf:Description>\n </rdf:RDF>\n</x:xmpmeta>\n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                                                                                                    \n                           \n<?xpacket end=\"w\"?>",
   "xmp": {
     "type": "Buffer",
     "data": [

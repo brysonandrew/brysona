@@ -7,7 +7,13 @@
   "depth": "uchar",
   "density": 72,
   "isProgressive": false,
+  "isPalette": true,
+  "bitsPerSample": 8,
   "paletteBitDepth": 8,
   "hasProfile": false,
-  "hasAlpha": false
+  "hasAlpha": false,
+  "autoOrient": {
+    "width": 3258,
+    "height": 1810
+  }
 }
