@@ -101,7 +101,7 @@ export const INIT_PROJECT_ITEMS = [
       'Conditional forms.',
     ],
   },
-  REPURPOSE,
+  // REPURPOSE,
   {
     title: 'Luridescence',
     description: 'Prints E-commerce (Concept)',
