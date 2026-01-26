@@ -19,7 +19,7 @@ import {
 
 export const STIKKY = {
   title: 'Stikky',
-  description: 'Marketing agency',
+  description: 'Marketing Agency',
   href: 'https://stikky.com.au/',
   tags: [
     GATSBY,
@@ -84,7 +84,7 @@ export const INIT_PROJECT_ITEMS = [
   INSURGENCE,
   {
     title: 'Take Shape',
-    description: 'Painting services portal',
+    description: 'Painting Services Portal',
 
     href: 'https://www.takeshapehome.com/',
     time: new Date(2024, 11, 1),
