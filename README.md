@@ -26,4 +26,7 @@ https://www.upwork.com/api/profiles/v1/providers/055578d5b838471396ccf98b183c443
 
 [![Ops Docs](ops/screens/blur/doc.md)]
 
+# Testing
+See [README.testing.md](README.testing.md) for testing goals, conventions, and how to run tests.
+
 # workhub

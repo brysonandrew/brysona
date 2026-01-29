@@ -5,21 +5,22 @@ const toMessage = (
   source: string,
 ) => `${content} ${source}`.trim();
 
+const isTestEnv = () =>
+  process.env.NODE_ENV === 'test';
+
 export const resolveErrorMessage = (
   error: TError,
   source = '',
-) => {
-  console.log(error);
-  if (typeof error === 'string')
-    return toMessage(error, source);
-  let content =
+): string | undefined => {
+  if (!isTestEnv()) console.log(error);
+  if (typeof error === 'string') return toMessage(error, source);
+  const content =
     typeof error === 'object' &&
     error !== null &&
     'message' in error &&
-    typeof error.message === 'string' &&
-    error.message;
-  content = toMessage(error, source);
-  if (content) {
-    console.error(content);
-  }
+    typeof error.message === 'string'
+      ? toMessage(error.message, source)
+      : toMessage(String(error), source);
+  if (content && !isTestEnv()) console.error(content);
+  return content;
 };

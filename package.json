@@ -51,8 +51,10 @@
   "dependencies": {
     "@brysonandrew/ops": "^7.0.26",
     "@emailjs/browser": "^4.4.1",
+    "axios": "^1.13.3",
     "class-variance-authority": "^0.7.1",
     "framer-motion": "^12.23.26",
+    "openai": "^6.16.0",
     "react": "^19.2.1",
     "react-device-detect": "^2.2.3",
     "react-dom": "^19.2.1",
@@ -66,7 +68,6 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@eslint/js": "^9.39.1",
-    "eslint-plugin-react": "^7.37.5",
     "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
@@ -80,9 +81,15 @@
     "@unocss/transformer-variant-group": "^66.5.10",
     "@vite/vitejs-client": "^2.2.10",
     "@vitejs/plugin-react": "^5.1.1",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "eslint-plugin-react": "^7.37.5",
+    "express": "^5.2.1",
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.2",
     "globals": "^16.5.0",
+    "node-fetch": "^3.3.2",
     "prettier": "^3.7.4",
     "rollup": "^4.53.3",
     "rollup-plugin-typescript": "^1.0.1",
@@ -91,7 +98,10 @@
     "typescript-eslint": "^8.48.1",
     "unocss": "^66.5.10",
     "vite": "^7.2.6",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4",
+    "jsdom": "^25.0.0",
+    "@testing-library/react": "^16.0.0"
   },
   "publishConfig": {
     "@brysonandrew:registry": "https://npm.pkg.github.com"

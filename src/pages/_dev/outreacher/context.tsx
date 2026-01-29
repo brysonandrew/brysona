@@ -320,6 +320,8 @@ export const OutreacherProvider: FC<TOutreacherProviderProps> = ({
     try {
       // Search for all locations and combine results
       const allResults: TBusiness[] = [];
+
+      console.log(validLocations)
       
       for (const location of validLocations) {
         const response = await fetch(
