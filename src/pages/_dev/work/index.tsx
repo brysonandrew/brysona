@@ -26,7 +26,7 @@ const _Work = withProviders(() => {
   const isKeyDown = keyRecord.alt || keyRecord.shift;
 
   return (
-    <div className="center bg-main w-full min-h-screen">
+    <div className="center bg-main w-full min-h-screen overflow-x-hidden">
       <GlobalCss />
       <WorkGradient />
       <div className="column-stretch w-full px-5 xxl:w-[900px]">
@@ -97,6 +97,7 @@ const _Work = withProviders(() => {
             </div>
           )}
         </WorkFilters>
+        <div className="py-6" />
       </div>
       <div className="py-24" />
     </div>

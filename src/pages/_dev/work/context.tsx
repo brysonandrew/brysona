@@ -80,7 +80,7 @@ const INIT: TWorkStateContext = {
   commonState: {
     hourly: HOURLY_DEFAULT,
     isExpert: true,
-    isIntermediate: false,
+    isIntermediate: true,
     ...PROPOSALS_DEFAULT,
   },
   items: ITEMS,
@@ -121,6 +121,7 @@ export const WorkStateProvider: FC<PropsWithChildren> = ({
       resolveKey('filters'),
       INIT.commonState,
     );
+    console.log(commonState)
   const reset = () => setItems(ITEMS);
   const remove = (id: string) =>
     setItems((prev) => prev.filter((v) => v.id !== id));

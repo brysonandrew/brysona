@@ -9,7 +9,6 @@ import {
 const DEFAULTS = {
   t: '0',
   ...SORT_DEFAULT,
-  q: '',
   nbs: '1',
 } as const;
 

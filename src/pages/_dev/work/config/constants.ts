@@ -7,8 +7,16 @@ import {
 
 export const HOURLY_MAX = 120;
 
+const PROPOSAL_RANGES = [
+  '0-4',
+  '5-9',
+  '10-14',
+  // '15-19',
+  // '20+',
+] as const;
+
 export const PROPOSALS_DEFAULT = {
-  proposals: '0-4',
+  proposals: PROPOSAL_RANGES.join(','),
 };
 
 export const HOURLY_DEFAULT = {
